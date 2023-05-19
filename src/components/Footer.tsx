@@ -29,8 +29,8 @@ function Footer() {
                 <a href="">Careers</a><a href="">Support</a><a href="">Privacy Policy</a>
             </div>
             <div className='lg:ml-auto flex flex-col '>
-                <button className=" hover:from-green-300 hover:to-green-600 bg-gradient-to-tr from-green-300 to-green-500 px-6 py-2 font-medium text-xs text-white rounded-2xl w-36 self-center scale-110">Request invite</button>
-                <p className=' mt-8 text-gray-400'>
+                <button name="invite-btn" className=" hover:from-green-300 hover:to-green-600 bg-gradient-to-tr from-green-300 to-green-500 px-6 py-2 font-medium text-xs text-white rounded-2xl w-36 self-center scale-110">Request invite</button>
+                <p className=' mt-8 text-gray-500'>
                     © Easybank. All Rights Reserved
                 </p>
 

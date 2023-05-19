@@ -27,7 +27,7 @@ function ThirdSectionArticle(props: ArticleProps) {
         <div className='pl-5 pr-5'>
 
             <p className='mt-5 text-xs text-gray-500'>By{props.author}</p>
-            <h3 className='text-lg mt-4'>{props.title}</h3>
+            <p className='text-lg mt-4'>{props.title}</p>
             <p className='text-sm mt-3 text-gray-500'>{props.details}</p>
         </div>
     </div>
