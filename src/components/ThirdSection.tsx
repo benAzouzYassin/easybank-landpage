@@ -2,9 +2,9 @@ import React from 'react'
 
 function ThirdSection() {
     return (
-        <div className='h-[90vh] lg:pr-36 lg:pl-36 '>
-            <h1 className='mt-16 text-5xl'>Latest Articles</h1>
-            <div className='grid lg:grid-cols-4 gap-8 mt-20'>
+        <div className='lg:h-[90vh] h-fit lg:pr-36 lg:pl-36 '>
+            <h1 className='mt-16 text-5xl text-center'>Latest Articles</h1>
+            <div className='grid lg:grid-cols-4 gap-8 mt-20 pl-10 mr-10'>
                 <ThirdSectionArticle imgUrl='/images/image-currency.jpg' author='Claire Robinson' title='Receive money in any currency with no fees' key={1} details="The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in single... " />
                 <ThirdSectionArticle imgUrl='/images/image-restaurant.jpg' author='Willson Hutton' title='Treat yourself without worrying about money' key={2} details="Our simple budgeting feature allows you to speparate out your spending and set realistic limits each month. That means you..." />
                 <ThirdSectionArticle imgUrl='/images/image-plane.jpg' author='Willson Hutton' title='Take your Easybank card wherever you go' key={3} details="We want you to enjoy travels.This is why we don't charge any fees on purchases while you'rer abroad. We'll evene show you..." />

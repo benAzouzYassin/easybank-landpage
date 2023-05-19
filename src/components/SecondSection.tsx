@@ -1,12 +1,11 @@
-import React from 'react'
 import SecondSectionCard from './SecondSectionCard'
 
 function SecondSection() {
     return (
-        <div className='h-fit pb-44 bg-[#f4f5f9] lg:pl-36 pt-32 '>
+        <div className='h-fit pb-44 bg-[#f4f5f9] lg:pl-36 pt-32 lg:text-left text-center pl-7 pr-7'>
             <div>
-                <h1 className='text-3xl text-indigo-950 font-medium'>Why choose Easybank?</h1>
-                <p className='mt-3 text-slate-500  text-xl w-5/12'>We levrage Open Banking to turn your bank account into your financial hub.
+                <h1 className='text-5xl text-indigo-950 font-medium ml-auto'>Why choose Easybank?</h1>
+                <p className='mt-10 text-slate-500  text-2xl lg:w-5/12'>We levrage Open Banking to turn your bank account into your financial hub.
                     Control your finances like never before.
                 </p>
             </div>
